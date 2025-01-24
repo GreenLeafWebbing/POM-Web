@@ -1,0 +1,12 @@
+.heading {
+    text-align: center;
+    background-color: olive;
+    height: 100px;
+    align-content: center;
+    font-size: large;
+}
+
+.tabs {
+    text-align: left;
+    word-spacing: normal;
+}
