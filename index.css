@@ -1,24 +1,37 @@
 .IndexBody {
-    background-color: lightgrey;
+    margin: 0;
+    background-color: lightgray;
+    padding: 10px;
 }
 
-.ContainerA {
-    height: 50px;
+.ContainerAll {
+    text-align: center;
     justify-content: center;
-    background-color: gray;
+    align-items: center;
+    padding: 10px; 
+}
+
+.ContainerAll-content {
+    text-align: center;
+    justify-content: center;
+    background-color: olive;
+    align-items: center;
+}
+
+.ContainerContent {
+    text-align: center;
+    justify-content: center;
 }
 
 .heading {
-    text-align: left;
+    text-align: center;
     background-color: olive;
-    height: 100px;
-    align-content: center;
+    align-items: center;
     font-size: large;
 }
 
 .tabs div {
     margin-right: 20;
-    padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -29,4 +42,21 @@
     max-width: 12000px;      
     margin: 0 auto;   
     background-color: burlywood;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.content {
+width: 400px;
+padding: 20px;
+background-color: #fffbcc;
+border: 2px solid #f7d700;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-align: left;
+align-content: center;
 }
