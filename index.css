@@ -1,12 +1,32 @@
+.IndexBody {
+    background-color: lightgrey;
+}
+
+.ContainerA {
+    height: 50px;
+    justify-content: center;
+    background-color: gray;
+}
+
 .heading {
-    text-align: center;
+    text-align: left;
     background-color: olive;
     height: 100px;
     align-content: center;
     font-size: large;
 }
 
+.tabs div {
+    margin-right: 20;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .tabs {
-    text-align: left;
-    word-spacing: normal;
+    display: flex;         
+    justify-content: space-between; 
+    align-items: center;    
+    max-width: 12000px;      
+    margin: 0 auto;   
+    background-color: burlywood;
 }
